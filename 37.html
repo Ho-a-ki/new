@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Register</title>
+ </head>
+ <body>
+    <h1>Register</h1>
+    <form>
+        <p>
+            <label>First Name:</label>
+            <input type="text" placeholder="John" name="firstName" required>
+            <label>Last Name:</label>
+            <input type="text" placeholder="Smith" name="lastName" required>
+        </p>
+
+        <lable for="sex">Male</lable>
+        <input type="radio" name="sex" value="male">
+        <lable>Female</lable>
+        <input type="radio" name="sex" value="female">
+        <lable>Other</lable>
+        <input type="radio" name="sex" value="other">
+        
+        <p>
+            <label for="">Email:</label>
+            <input type="email" placeholder="Your Email" required name="email">
+            <label for="">Password:</label>
+            <input type="password" pattern=".{5,10}" required title="5 to 10 Charaters" placeholder="Your Password">
+        </p>
+
+        <p>
+            <label for="">BirthDay:</label>
+            <select name="Month" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select name="Day" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <select name="Year" id="">
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+            </select>
+        </p>
+        <p>
+            <label>I agree to the terms and conditions:</label>
+            <input type="checkbox" name="" id="">
+        </p>
+        
+        <input type="submit" name="" id="">
+    </form> 
+
+
+ </body>
+ </html>
