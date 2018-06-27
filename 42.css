@@ -1,11 +1,37 @@
-h1{
-    color: red;
+h1 {
+    color:rgba(11,99,150,1);
 }
 
-li{
-    color: rgb(212, 0, 255);
+li {
+    color:rgba(11,99,150, .8);
 }
 
-h4{
+h4 {
+    color:rgba(11,99,150,.6);
+}
+
+h1 {
+    color:rgba(11,99,150,.2);
+}
+
+/* h1 {
+    color:red;
+}
+
+li {
+    color: rgb(255, 0, 0);
+}
+
+h4 {
     color: blue;
 }
+
+h1 {
+    color:#FF0011
+} */
+
+/* color picker. */
+/* color를 표현하는 3가지 방법.
+red , FF0000 , rgb(255,0,0) */
+/* +rgba > 투명도를 선택 가능 */
+

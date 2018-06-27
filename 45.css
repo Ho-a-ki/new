@@ -1,0 +1,23 @@
+h4 {
+    background: rgb(255,100,80);
+}
+
+h1 {
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 6px dashed rgb(255,20,80);
+}
+
+
+/* width
+color
+style */
+
+
+body {
+    background: pink;
+    /* background: url(https://www.babybedding.com/images/fabric/navy-woodgrain-fabric_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}

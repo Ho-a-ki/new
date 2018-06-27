@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>specificity</title>
+    <style type="text/css">
+    body {
+        color: purple;
+    }
+
+    p {
+        color:green
+    }
+
+    .highlight {
+        color: yellow
+    }
+
+    #special{
+        color: pink
+    }
+
+    </style>
+</head>
+<body>
+
+    <p> Hello!</p>
+
+    <ul>
+        <li id="special" class="highlight">Jonh</li>
+        <li>Paul</li>
+        <li class="highlight">George</li>
+        <li>Ringo</li>
+    </ul>
+    <!-- this is just demonstrating this concept of inheritance
+    where if we set a property on a parent it can also affect child -->
+    <!-- 구글 개발자 도구로 보면 inherited 되었다는게 명시되어 있고.
+    또 상속된것 중에 먼저 상속된것 (범위가 큰것)은 line이 쳐져있음.
+    영어표현 crossed out.
+
+    how specificity is calculated?
+    > there is some site that can calculate the numeric value
+    : specificity.keegan.st
+ -->
+</body>
+</html>

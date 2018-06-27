@@ -1,0 +1,45 @@
+
+
+/* Elements */
+li {
+
+}
+
+/* class */
+.hello {
+
+}
+
+/* id */
+#name{
+
+}
+
+/* Stars > all of */
+* {
+    border: 1px solid lightgray
+}
+
+/* descendant */
+li a {
+    color: red
+}
+
+/* Adjacent Selector */
+h4 + ul {
+    border: 4px solid red
+}
+
+/* attribute Selecotr*/
+a[href="http://google.com"] {
+    background: blue
+}
+
+input[type="text"] {
+    border: 10px solid royalblue;
+}
+
+/* nth-of-type */
+li:nth-of-type(3) {
+    background: purple
+}

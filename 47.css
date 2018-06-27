@@ -1,0 +1,12 @@
+li {
+    border: 2px solid red
+}
+
+/* #은 id를 의미한다. */
+#special {
+    background: yellow
+}
+
+.completed {
+    text-decoration: line-through   ;
+}
