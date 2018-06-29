@@ -1,0 +1,33 @@
+
+tr{
+    width: 33%;
+}
+td{
+    width: 30px;
+    height: 30px;
+    padding: 50px
+}
+
+.first{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.third{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.five{
+    border: 1px solid black
+}
+
+.seven{
+    border-top: 1px solid black;
+    border-right: 1px solid black;    
+}
+
+.nine{
+    border-top: 1px solid black;
+    border-left: 1px solid black;    
+}

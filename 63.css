@@ -1,0 +1,14 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+p {
+    margin-left: 1.66%;
+    font-size: 40px;
+    font-family: Song Myung;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    width: 30%;
+    padding-bottom: 20px;
+}

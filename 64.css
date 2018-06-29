@@ -1,0 +1,24 @@
+body {
+    width: 80%;
+    max-width: 700px;
+    border: 20px solid #bdc3c7;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+}
+
+.comment {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+hr {
+    margin-bottom: 20px
+}
+
