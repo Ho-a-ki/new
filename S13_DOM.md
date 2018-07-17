@@ -19,4 +19,23 @@ There are 5 main methods we're going to talk about in this video
  > 즉 CSS 셀렉터를 쓰는것과 동일하게 사용가능하다는 것.
 5. document.querySelectoraAll()
 
-```152```
+```154```
+Manipulating Style.
+
+Dom Manipulation
+* changing an element's style
+* adding/removing classes 
+* changing the content of a tag
+* changing attributes (src , href , etc.)
+
+> The Idea : Seperation of Concerns.
+Manipulating CSS, Html by JS : Rather thna directly manipulating,
+we can define CSS class and then toggle it on or off with JS!
+: 자바스크립트로 CSS 클래스 만들어서 그거 클래스 추가 시켜주기.
+: 직접 CSS 파일 수정하는 것 지양하기 > seperaiton of concerns.
+
+>tag.classList.add("Some-class") or
+
+>tag.classList.remove("Some-class")
+
+
