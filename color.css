@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background: #232323;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0px;
+    background: steelblue;
+    line-height: 1.3;
+    color: azure;
+    text-transform: uppercase;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    /* text-align: center; */
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 30%;
+    background: rgb(155, 155, 20);
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: all, 0.33s
+}
+
+#answerColor {
+    font-size:200%;
+}
+
+button {
+    border: none;
+    padding: 6px;
+    background: none;
+    height: 100%;
+    font-size: inherit;
+    text-transform: uppercase;
+    color: steelblue;
+    font-weight: 700;
+    transition: all 0.3s
+}
+
+#mes {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.selected {
+    color: white;
+    background: steelblue;
+}
+
+button:hover {
+    color:white;
+    background: steelblue;
+}
